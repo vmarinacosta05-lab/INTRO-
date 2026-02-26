@@ -4,3 +4,4 @@ st.header("la mejor cancion de Katty Perry")
 from PIL import Image
 image=Image.open("katty.jpg")
 st.image(image,caption="WOOOOOO")
+texto=st.text_input("Ingresa Texto","Texto Inicial")
