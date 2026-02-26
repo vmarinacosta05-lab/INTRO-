@@ -6,3 +6,5 @@ image=Image.open("katty.jpg")
 st.image(image,caption="WOOOOOO")
 texto=st.text_input("Ingresa Texto","Texto Inicial")
 st.write("El texto que haz escrito", texto)
+if st.button("presiona el boton"):
+  st.write("haz presionado")
