@@ -1,2 +1,2 @@
 import streamlit as st
-st.tittle ("DO YOU EVER FEEL LIKE A PLASTIC BAG")
+st.title ("DO YOU EVER FEEL LIKE A PLASTIC BAG")
