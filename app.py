@@ -5,4 +5,4 @@ from PIL import Image
 image=Image.open("katty.jpg")
 st.image(image,caption="WOOOOOO")
 texto=st.text_input("Ingresa Texto","Texto Inicial")
-st.write(texto)
+st.write("El texto que haz escrito", texto)
